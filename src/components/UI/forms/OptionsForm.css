@@ -1,0 +1,29 @@
+.options-form {
+  padding: 0 2.5px;
+}
+.options-form__container {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 8px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.options-form__option {
+  padding: 0 16px;
+  display: flex;
+  gap: 16px;
+}
+.options-form__option span {
+  font-size: 20px;
+}
+.options-form__option div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.options-form__option input {
+  margin: 0;
+}

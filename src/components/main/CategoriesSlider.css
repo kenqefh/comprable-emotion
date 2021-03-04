@@ -1,0 +1,27 @@
+.categories-container {
+  height: 64px;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+}
+
+.categories-list {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  padding: 0;
+}
+
+.categories-list li {
+  padding: 4px 8px;
+  border-radius: 16px;
+  border: 1px solid #595959;
+}
+
+.categories-list li.selected {
+  background-color: #595959;
+  color: white;
+}

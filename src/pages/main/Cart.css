@@ -1,0 +1,20 @@
+.cart__header {
+  height: 64px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #595959;
+}
+
+.cart__header_title {
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  margin: 0;
+}
+
+.cart__items {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

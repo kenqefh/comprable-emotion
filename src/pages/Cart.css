@@ -1,0 +1,25 @@
+
+
+.cart__items{
+  display: flex;
+  flex-direction: column;
+}
+
+.cart__header{
+  position: relative;
+  width: 360px;
+  height: 64px;
+  border-bottom: 1px solid black;
+}
+
+.cart__header_title{
+  width: 328px;
+  height: 32px;
+  margin-left: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}

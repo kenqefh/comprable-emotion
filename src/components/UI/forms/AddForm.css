@@ -1,0 +1,52 @@
+.add-form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 2.5px;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 1;
+}
+
+.add-form__container {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 8px 16px;
+}
+
+.add-form__field {
+  text-align: left;
+}
+
+.add-form__field label {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.add-form__field input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #bfbfbf;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-form__footer {
+  margin-top: 8px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-form__footer a {
+  font-size: 12px;
+}
+
+.add-form__footer button {
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}

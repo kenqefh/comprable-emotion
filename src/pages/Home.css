@@ -1,0 +1,20 @@
+.home {
+  margin-top: 100px;
+}
+
+.home-container {
+  width: 320px;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.home__buttons-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+button.home-button {
+  padding: 16px;
+}

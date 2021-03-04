@@ -1,0 +1,36 @@
+.main {
+  padding-bottom: 85px;
+}
+.main__categories {
+  height: 64px;
+}
+
+.main__gallery {
+  margin: 12px auto;
+  width: 90%;
+  position: relative;
+  padding-bottom: 46px;
+}
+
+.main__gallery h2 {
+  text-align: left;
+}
+
+.main__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 32px;
+  justify-items: center;
+}
+
+.main__card {
+}
+
+.main__pagination {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.main__footer {
+}

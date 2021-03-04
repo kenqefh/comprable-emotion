@@ -1,0 +1,19 @@
+.orderSuccess__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  padding-top: 30%;
+}
+
+.orderSuccess__icon {
+  font-size: 47px;
+}
+
+.orderSuccess__title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 38px;
+  width: 74%;
+}

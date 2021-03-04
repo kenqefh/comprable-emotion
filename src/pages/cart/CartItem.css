@@ -1,0 +1,33 @@
+.cart-item {
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 8px;
+  height: 80px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.cart-item__info * {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.cart-item__name {
+  font-size: 16px;
+  line-height: 24px;
+}
+.cart-item__category {
+  font-size: 12px;
+  line-height: 20px;
+  color: #595959;
+}
+.cart-item__price {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.cart-item__subtotal {
+  text-align: right;
+}

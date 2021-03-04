@@ -1,0 +1,21 @@
+.main-list__item {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-list__item-content {
+  display: flex;
+  gap: 16px;
+}
+
+.main-list__item-content--done span {
+  text-decoration: line-through;
+}
+
+.main-list__item-options {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
